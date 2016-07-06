@@ -6,8 +6,8 @@ Le one-page qui va vous donner envie de voyager.
 
 To do
 -
-$ npm install
-$ gulp
+- $ npm install
+- $ gulp
 
 
 Problématique
