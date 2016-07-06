@@ -12,4 +12,4 @@ $ gulp
 
 Problématique
 -
-Toute première utilisation de gulp, node et sass ...# Projet Mobile First
+Toute première utilisation de gulp, node et sass ...
