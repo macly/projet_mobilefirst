@@ -1,0 +1,232 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: 12px/18px verdana, arial, sans-serif;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* // GENERAL // */
+body {
+  margin: 0px auto;
+  text-align: center;
+}
+
+p, a {
+  font: 15px 'Source Sans Pro';
+  color: #1d1d1d;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #555;
+}
+
+h1, h2, h3, span {
+  font: 15px 'Playfair Display';
+  font-weight: bold;
+}
+
+h1, h2 {
+  font-size: 30px;
+}
+
+h1 {
+  margin: 50px 0 30px 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+nav ul li a {
+  margin: 0 25px;
+}
+
+/* // HERO // */
+#hero {
+  height: auto;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.hero {
+  padding: 5px;
+}
+
+@media screen and (min-width: 940px) {
+  .hero {
+    padding: 0px;
+  }
+}
+
+/* // ABOUT // */
+#about {
+  display: inline-block;
+  text-align: justify;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#about img {
+  width: 100%;
+  height: auto;
+}
+
+#about h2 {
+  margin-bottom: 35px;
+}
+
+#about p {
+  margin-bottom: 21px;
+}
+
+#about .text {
+  display: inline-block;
+}
+
+@media screen and (min-width: 940px) {
+  #about {
+    width: 940px;
+    padding: 0px;
+    margin-top: 50px;
+  }
+  #about img {
+    float: right;
+    width: auto;
+  }
+  #about .text {
+    width: 500px;
+  }
+}
+
+/* // THE MOTTO // */
+#motto {
+  background-color: #fbfbfb;
+  margin: 10px 0;
+}
+
+#motto h3 {
+  margin: 20px 0 10px 0;
+}
+
+#motto ul li {
+  display: inline-block;
+  margin: 40px 30px;
+  width: 270px;
+}
+
+@media screen and (min-width: 940px) {
+  #motto {
+    margin: 50px 0;
+  }
+}
+
+/* // ADVENTURES // */
+#adventure {
+  margin: 0 auto;
+}
+
+#adventure ul li {
+  display: inline-block;
+  padding: 5px;
+}
+
+#adventure img {
+  height: auto;
+  max-width: 100%;
+}
+
+#adventure p {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 940px) {
+  #adventure {
+    max-width: 940px;
+    margin: 0 auto;
+  }
+  #adventure ul li {
+    display: inline-block;
+    width: 48%;
+    padding: 5px;
+  }
+}
+
+/* // LETS GO // */
+#letsgo {
+  padding: 50px 0;
+  background-color: #fbfbfb;
+  margin-top: 10px;
+}
+
+#letsgo .button a {
+  background-color: #1d1d1d;
+  padding: 10px 60px;
+  color: #fff;
+}
+
+#letsgo h2 {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 940px) {
+  #letsgo {
+    margin-top: 50px;
+    padding: 75px 0;
+  }
+}
+
+/* // FOOTER // */
+footer {
+  padding: 50px 0;
+}
